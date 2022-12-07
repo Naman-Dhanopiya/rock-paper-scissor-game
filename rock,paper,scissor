@@ -64,7 +64,7 @@ while True:
 			print("scissor wins =>", end="")
 			result = "scissor"
 
-	# Printing either user or computer wins or draw
+	# Printing either user or computer wins or if a draw
 	if result == "Draw":
 		print("<== Its a tie ==>")
 	if result == choice_name:
